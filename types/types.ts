@@ -12,4 +12,8 @@ interface DataProps {
   images: string[];
 }
 
-export type { DataProps };
+type ProductProps = {
+  data: DataProps[];
+};
+
+export type { DataProps, ProductProps };
